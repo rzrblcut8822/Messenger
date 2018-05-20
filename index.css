@@ -1,0 +1,131 @@
+/*------------ my-navbar -------------------------*/
+
+.my-navbar .navbar-brand {
+    color: rgba(0, 0, 0, .9)
+}
+
+.my-navbar .navbar-brand:focus, .my-navbar .navbar-brand:hover {
+    color: rgba(0, 0, 0, .9)
+}
+
+.my-navbar .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5)
+}
+
+.my-navbar .navbar-nav .nav-link:focus, .my-navbar .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .7)
+}
+
+.my-navbar .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, .3)
+}
+
+.my-navbar .navbar-nav .active>.nav-link, .my-navbar .navbar-nav .nav-link.active, .my-navbar .navbar-nav .nav-link.show, .my-navbar .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, .9)
+}
+
+.my-navbar .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1)
+}
+
+.my-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.my-navbar .navbar-text {
+    color: rgba(0, 0, 0, .5)
+}
+
+.my-navbar .navbar-text a {
+    color: rgba(0, 0, 0, .9)
+}
+
+.my-navbar .navbar-text a:focus, .my-navbar .navbar-text a:hover {
+    color: rgba(0, 0, 0, .9)
+}
+
+/*------------ my-bg -------------------------*/
+
+.my-bg {
+    background-color: #f8642e !important
+}
+
+a.my-bg:focus, a.my-bg:hover, button.my-bg:focus, button.my-bg:hover {
+    background-color: #f8642eee !important
+}
+
+/*----------- sticky navbar ---------------*/
+
+/* Style the navbar */
+
+#myStickyNavbar {
+    /*overflow: hidden;*/
+    background-color: #333;
+}
+
+/* Navbar links */
+
+#myStickyNavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Page content */
+
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+/*------------ other things -------------*/
+
+#next {
+    height: 1000px
+}
+
+#messageHolder {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 30%;
+
+}
+
+#messageHolder h1 {
+    color: #fff;
+    font-size:2rem;
+}
+
+#messageHolder h3 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+a, a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*------------ canvas -------------------------*/
+
+canvas {
+    width: 100%;
+}
