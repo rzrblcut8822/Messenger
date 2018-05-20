@@ -12,9 +12,6 @@ var sticky = myStickyNavbar.offsetTop;
 //var header= myHeader.height;
 //var offsetHeight = document.getElementById('myDiv').offsetHeight;
 
-
-
-
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
     var myHeaderHeight = document.getElementById("header").offsetHeight;
@@ -24,8 +21,12 @@ function myFunction() {
   if (window.pageYOffset >= sticky+550) {
     myStickyNavbar.classList.add("sticky")
     
+
   } else {
     myStickyNavbar.classList.remove("sticky");
     
   }
 }
+
+var message=document.getElementById("messageHolder");
+
