@@ -18,13 +18,10 @@ function myFunction() {
     console.log("myStickyNavbar.offsetTop:"+sticky);
     console.log("window.pageYOffset:"+window.pageYOffset);
     console.log("myheader.offHeight:"+myHeaderHeight);
-  if (window.pageYOffset >= sticky+550) {
+  if (window.pageYOffset >= myHeaderHeight) {
     myStickyNavbar.classList.add("sticky")
-    
-
-  } else {
+      } else {
     myStickyNavbar.classList.remove("sticky");
-    
   }
 }
 

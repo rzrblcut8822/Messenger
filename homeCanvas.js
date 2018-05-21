@@ -1,4 +1,4 @@
-$(function() {
+function init() {
     var interval = 70;
     var nb_num = 250;
     var radius_num = 60;
@@ -186,4 +186,7 @@ $(function() {
     createDots();
     animateDots();
     // setInterval(animateDots, interval);
-});
+}
+
+window.addEventListener("load", init)
+window.addEventListener("resize", init);
